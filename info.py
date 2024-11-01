@@ -32,5 +32,5 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "cx-series")
 
 # Shortlink Info
 SHORTLINK = bool(environ.get('SHORTLINK', True)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://adrinolinks.in')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'adrinolinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'a2572c33da08d08ec508c5b8e82b130ae9f7aa01')
